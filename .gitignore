@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-*~
-.idea/
-.gradle/
-*.iml
-local.properties
-app/build/
-build/
-captures/
-.DS_Store
-plugins/
-=======
 # Gradle files
 .gradle/
 build/
@@ -43,4 +31,3 @@ google-services.json
 
 # Android Profiling
 *.hprof
->>>>>>> e1923532a5784224397acc67f289aa526640308f
