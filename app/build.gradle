@@ -97,6 +97,8 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
+    kotlinOptions { jvmTarget = "17" }
+
     signingConfigs {
         release {
             storeFile file("../../release.keystore")
@@ -142,7 +144,7 @@ android {
         }
     }
     namespace 'co.median.android'
-    testNamespace '${applicationId}.test'
+    testNamespace 'co.median.android.test'
     buildFeatures {
         buildConfig true
     }
